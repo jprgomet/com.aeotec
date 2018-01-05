@@ -22,7 +22,7 @@
 		"productId": 121,
 		"learnmode": {
 			"instruction": {
-				"en": "To include: turn the bulb off and on to enter learning mode \n\n To exclude: turn the bulb off and on 5 times very quickly",
+				"en": "To include: turn the LED strip off and on to enter learning mode \n\n To exclude: turn the bulb off and on 5 times very quickly",
 				"nl": "Om toe te voegen: schakel de lamp uit en aan \n\n Om te verwijderen: schakel de lamp 5 keer snel uit en aan"
 			}
 		},
@@ -42,7 +42,7 @@
 				"id": 34,
 				"type": "checkbox",
 				"label": {
-					"en": "Enable external switch to turn on/off the bulb",
+					"en": "Enable/disable to turn on the last brightness level of the LED Strip when using the Color Switch Set CC to change its color.",
 					"nl": "Laat externe knop de lamp aan en uit zetten"
 				},
 				"value": false
@@ -51,7 +51,7 @@
 				"id": 35,
 				"type": "checkbox",
 				"label": {
-					"en": "Enable external switch to change the color of the bulb",
+					"en": "Configure the display mode of Cold/Warm white. False uses only CW or WW leds, True uses both complementary CW+WW",
 					"nl": "Laat externe knop de kleur van de lamp aanpassen"
 				},
 				"value": true
