@@ -3607,6 +3607,67 @@
       ]
     },
     {
+      "id": "ZW121",
+      "name": {
+        "en": "LED Strip"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "images": {
+        "large": "/drivers/ZW121/assets/images/large.png",
+        "small": "/drivers/ZW121/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 134,
+        "productTypeId": 3,
+        "productId": 121,
+        "learnmode": {
+          "instruction": {
+            "en": "To include: turn the bulb off and on to enter learning mode \n\n To exclude: turn the bulb off and on 5 times very quickly",
+            "nl": "Om toe te voegen: schakel de lamp uit en aan \n\n Om te verwijderen: schakel de lamp 5 keer snel uit en aan"
+          }
+        },
+        "associationGroups": [
+          1,
+          2
+        ],
+        "defaultConfiguration": [
+          {
+            "id": 80,
+            "value": 2,
+            "size": 1
+          }
+        ],
+        "settings": [
+          {
+            "id": 34,
+            "type": "checkbox",
+            "label": {
+              "en": "Enable external switch to turn on/off the bulb",
+              "nl": "Laat externe knop de lamp aan en uit zetten"
+            },
+            "value": false
+          },
+          {
+            "id": 35,
+            "type": "checkbox",
+            "label": {
+              "en": "Enable external switch to change the color of the bulb",
+              "nl": "Laat externe knop de kleur van de lamp aanpassen"
+            },
+            "value": true
+          }
+        ]
+      }
+    },
+    {
       "id": "ZW130",
       "class": "sensor",
       "name": {

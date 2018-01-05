@@ -409,7 +409,7 @@ Homey.manager('flow').on('action.zw121_from_to', (callback, args) => {
 
 			//Send parameter values to module
 			node.instance.CommandClass['COMMAND_CLASS_CONFIGURATION'].CONFIGURATION_SET({
-				"Parameter Number": 38, // OVO NE VALJA!!!
+				"Parameter Number": 38,
 				"Level": {
 					"Size": 4,
 					"Default": false
