@@ -4,7 +4,7 @@ const path = require('path');
 const ZwaveDriver = require('homey-zwavedriver');
 const tinycolor = require('tinycolor2');
 
-// http://www.smarthome.com.au/media/manuals/Aeotec_Z-Wave_LED_Bulb_Product_Manual.pdf
+// https://aeotec.freshdesk.com/support/solutions/articles/6000162367-led-strip-user-guide-
 
 module.exports = new ZwaveDriver(path.basename(__dirname), {
 	capabilities: {
