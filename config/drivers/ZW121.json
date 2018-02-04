@@ -22,7 +22,7 @@
 		"productId": 121,
 		"learnmode": {
 			"instruction": {
-				"en": "To include: turn the LED strip off and on to enter learning mode \n\n To exclude: turn the bulb off and on 5 times very quickly",
+				"en": "To include: Press the Action Button once on the LED Strip, or twice for secure connection. \n\n To exclude: Press the Action Button on the LED Strip.",
 				"nl": "Om toe te voegen: schakel de lamp uit en aan \n\n Om te verwijderen: schakel de lamp 5 keer snel uit en aan"
 			}
 		},
